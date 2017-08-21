@@ -153,7 +153,9 @@ REST_FRAMEWORK = {
 
 AUTHENTICATION_BACKENDS = (
     # Twitter
-    'social_core.backends.twitter.TwitterOAuth',
+    # 'social_core.backends.twitter.TwitterOAuth',
+    'social_core.backends.facebook.FacebookAppOAuth2',
+    'social_core.backends.facebook.FacebookOAuth2',
    'rest_framework_social_oauth2.backends.DjangoOAuth2',
    'django.contrib.auth.backends.ModelBackend',
 )
