@@ -14,7 +14,7 @@ django-toolkit==0.3.3
 djangorestframework==3.6.3
 gunicorn==19.7.1
 idna==2.6
-lxml==3.4.4
+lxml==4.6.3
 oauthlib==2.0.2
 psycopg2==2.7.3
 PyJWT==1.5.2
